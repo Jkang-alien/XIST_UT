@@ -14,7 +14,7 @@ library(cgdsr)
 
 mycgds = CGDS("http://www.cbioportal.org/public-portal/")
 cancerstudy = getCancerStudies(mycgds)
-mycancerstudy = getCancerStudies(mycgds)[88,1]
+mycancerstudy = getCancerStudies(mycgds)[146,1]
 caselist = getCaseLists(mycgds,mycancerstudy)
 mycaselist = getCaseLists(mycgds,mycancerstudy)[7,1]
 geneticprofile = getGeneticProfiles(mycgds,mycancerstudy)
